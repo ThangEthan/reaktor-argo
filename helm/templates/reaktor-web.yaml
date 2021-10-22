@@ -15,8 +15,9 @@ spec:
       values: |
         image:
           tag: latest
-        host: *
-        path: /web
+        ingress:
+          host: *
+          path: /web
       version: v3
   destination:
     namespace: production

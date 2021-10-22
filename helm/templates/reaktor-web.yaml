@@ -16,7 +16,6 @@ spec:
         image:
           tag: latest
         ingress:
-          host: thang.vu.com
           path: /web
   destination:
     namespace: production

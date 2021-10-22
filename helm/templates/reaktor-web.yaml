@@ -17,7 +17,6 @@ spec:
           tag: latest
         ingress:
           host: *
-          path: /web
       version: v3
   destination:
     namespace: production

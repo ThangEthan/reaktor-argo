@@ -17,7 +17,7 @@ spec:
           tag: latest
         ingress:
           host: reaktor-web.vvthang.com
-          path: /web
+          path: /
         env:
           API_URL: reaktor-api.vvthang.com
   destination:

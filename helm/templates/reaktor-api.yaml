@@ -17,7 +17,7 @@ spec:
           tag: latest
         ingress:
           host: reaktor-api.vvthang.com
-          path: /api
+          path: /
   destination:
     namespace: production
     server: https://kubernetes.default.svc

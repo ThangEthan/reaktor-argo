@@ -17,6 +17,7 @@ spec:
           tag: latest
         ingress:
           path: /web
+          host: *
   destination:
     namespace: production
     server: https://kubernetes.default.svc

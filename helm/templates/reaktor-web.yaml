@@ -16,7 +16,7 @@ spec:
         image:
           tag: latest
         ingress:
-          host: reaktor.vvthang.com
+          host: *
           path: /web
       version: v3
   destination:

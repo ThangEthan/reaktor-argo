@@ -16,7 +16,8 @@ spec:
         image:
           tag: latest
         ingress:
-          path: /web destination:
+          path: /web
+  destination:
     namespace: production
     server: https://kubernetes.default.svc
   syncPolicy:

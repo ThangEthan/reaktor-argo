@@ -16,9 +16,7 @@ spec:
         image:
           tag: latest
         ingress:
-          host: vvthang.com
-          path: /web
-  destination:
+          path: /web destination:
     namespace: production
     server: https://kubernetes.default.svc
   syncPolicy:

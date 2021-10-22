@@ -16,7 +16,7 @@ spec:
         image:
           tag: latest
         ingress:
-          host: aeb8b626b54e042208a30db17d483073-f22a1c54c3a4d00b.elb.eu-west-1.amazonaws.com/reaktor-web
+          host: aeb8b626b54e042208a30db17d483073-f22a1c54c3a4d00b.elb.eu-west-1.amazonaws.com/reaktorweb
       version: v3
   destination:
     namespace: production

@@ -16,7 +16,6 @@ spec:
         image:
           tag: latest
         ingress:
-          host: vvthang.com
           path: /web
   destination:
     namespace: production

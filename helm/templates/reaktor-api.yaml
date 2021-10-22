@@ -16,7 +16,8 @@ spec:
         image:
           tag: latest
         ingress:
-          host: reaktor-api.aeb9b626b54e042208a30db17d483073-f22a1c54c3a4d00b.elb.eu-west-1.amazonaws.com
+          host: *
+          path: /api
       version: v3
   destination:
     namespace: production

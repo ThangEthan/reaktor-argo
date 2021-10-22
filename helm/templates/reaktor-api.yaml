@@ -16,7 +16,7 @@ spec:
         image:
           tag: latest
         ingress:
-          host: *
+          host: "*"
           path: /api
       version: v3
   destination:

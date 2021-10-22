@@ -16,7 +16,6 @@ spec:
         image:
           tag: latest
         ingress:
-          host: thang.vu.com
           path: /web
       version: v3
   destination:

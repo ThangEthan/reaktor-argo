@@ -19,7 +19,7 @@ spec:
           host: reaktor-web.vvthang.com
           path: /
         env:
-          API_URL: reaktor-api.vvthang.com
+          API_URL: http://reaktor-api.vvthang.com
   destination:
     namespace: production
     server: https://kubernetes.default.svc

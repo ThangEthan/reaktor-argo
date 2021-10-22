@@ -9,14 +9,14 @@ spec:
   project: default
   source:
     path: helm
-    repoURL: https://github.com/ThangEthan/reaktor-api.git
+    repoURL: https://github.com/ThangEthan/reaktor-api-conf.git
     targetRevision: HEAD
     helm:
       values: |
         image:
           tag: latest
         ingress:
-          host: reaktor-api.192.168.49.2.nip.io
+          host: aeb9b626b54e042208a30db17d483073-f22a1c54c3a4d00b.elb.eu-west-1.amazonaws.com/reaktor-api
       version: v3
   destination:
     namespace: production

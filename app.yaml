@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: helm
-    repoURL: https://github.com/ThangEthan/reaktor-argo.git
+    repoURL: https://github.com/ThangEthan/reaktor-argocd.git
     targetRevision: HEAD
   destination:
     namespace: production

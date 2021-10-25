@@ -13,8 +13,6 @@ spec:
     targetRevision: HEAD
     helm:
       values: |
-        image:
-          tag: latest
         ingress:
           host: reaktor-api.vvthang.com
           path: /

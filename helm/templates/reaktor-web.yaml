@@ -12,12 +12,8 @@ spec:
     repoURL: https://github.com/ThangEthan/reaktor-web-conf.git
     targetRevision: HEAD
     helm:
-      values: |
-        ingress:
-          host: reaktor-web.vvthang.com
-          path: /
-        env:
-          API_URL: http://reaktor-api.vvthang.com
+      valueFiles:
+        - value-eks.yaml
   destination:
     namespace: production
     server: https://kubernetes.default.svc

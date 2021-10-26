@@ -13,7 +13,7 @@ spec:
     targetRevision: HEAD
     helm:
       valueFiles:
-        - value-eks.yaml
+        - values-eks.yaml
   destination:
     namespace: production
     server: https://kubernetes.default.svc

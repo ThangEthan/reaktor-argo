@@ -8,12 +8,11 @@ metadata:
 spec:
   project: default
   source:
-    path: helm
+    path: overlay/production
     repoURL: https://github.com/ThangEthan/reaktor-web-conf.git
     targetRevision: HEAD
-    helm:
-      valueFiles:
-        - values-eks.yaml
+    kustomize: 
+      version: v4.4.0 
   destination:
     namespace: production
     server: https://kubernetes.default.svc

@@ -11,8 +11,6 @@ spec:
     path: helm
     repoURL: https://github.com/ThangEthan/reaktor-argocd.git
     targetRevision: HEAD
-    kustomize:
-      version: v3.5.4
   destination:
     namespace: production
     server: https://kubernetes.default.svc
